@@ -11,6 +11,7 @@ body {
   color: $color-white;
   text-transform: uppercase;
   margin-bottom: 6rem;
+
   &--main {
     display: block;
     font-size: 6rem;
@@ -21,6 +22,7 @@ body {
     backface-visibility: hidden;
     /* animation-delay: 3s; */
   }
+
   &--sub {
     display: block;
     font-size: 2rem;
@@ -40,11 +42,9 @@ body {
   text-transform: uppercase;
   display: inline-block;
   letter-spacing: 0.2rem;
-  background-image: linear-gradient(
-    to right,
-    $color-primary-light,
-    $color-primary-dark
-  );
+  background-image: linear-gradient(to right,
+      $color-primary-light,
+      $color-primary-dark);
   -webkit-background-clip: text;
   color: transparent;
   transition: all 0.2s;
