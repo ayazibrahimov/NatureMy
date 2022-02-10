@@ -58,6 +58,8 @@
     }
   }
 
+
+
   .btn-text {
 
     &:link,
@@ -70,6 +72,9 @@
       padding: 3px;
       transition: all 0.2;
     }
+
+
+
 
     &:hover {
       color: $color-white;
@@ -87,6 +92,31 @@
   .composition {
     &__photo {
       width: 55rem;
+    }
+  }
+
+  &--green {
+    display: inline-block;
+    background-color: $color-primary;
+    outline: none;
+    border: none;
+    padding: .8rem;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: $color-white;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s;
+    box-shadow: 0 1rem 1rem rgba($color-black, .8);
+
+
+    &:hover {
+      transform: translateY(-4px);
+    }
+
+    &:active {
+      transform: translateY(0);
+      box-shadow: 0 .5rem .5rem rgba($color-black, .5);
     }
   }
 
